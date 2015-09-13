@@ -1,5 +1,5 @@
 import csv
-with open('products.csv') as csvfile:
+with open('product(1).csv') as csvfile:
 	reader = csv.DictReader(csvfile)
 	for row in reader:
-		print(row['name'])
+		print(row['_id'])
